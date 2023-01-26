@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap');
+@font-face {
+    font-family: 'CocoBiker';
+    src: url("../fonts/CocoBiker.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Poppins', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'CocoBiker', sans-serif;
+}
+
+hr {
+    margin: 5rem 3rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    margin: 3rem 0;
+}
+
+.content {
+    margin: auto;
+    width: 90%;
+}
+
+.sections-img {
+    height: 50vh
+}
+
+
+/* NAVBAR */
+.navbar {
+    background-color:#0b2b33;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+
+.nav-menu {
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu {
+    list-style: none;
+    display: flex;
+}
+
+.main-menu li {
+    padding: 20px;
+}
+
+.main-menu li a {
+    color: #d0b9b1;
+    font-family: 'CocoBiker';
+}
+
+.main-menu li a:hover {
+    opacity: .5;
+    transition: .5s;
+}
+
+.brand-img {
+    width: 80px;
+}
+
+
+
+/* HEADER */
+
+.hero {
+    height: 100vh;
+    background: url("../img/hero.jpg") center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+}
+
+.hero-content {
+    margin: 0 20rem;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 64px
+}
+
+.hero-btn {
+    display: inline-block;
+    color: antiquewhite;
+    border: solid 3px antiquewhite;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-weight: 600;
+    background-color: #0b2b33;
+    transition: .9s;
+}
+
+.hero-btn:hover {
+    transition: .5s;
+    border: solid 3px #ffffff;
+    padding: 10px 20px;
+    transform: scale(1.03);
+    background-color: #0b2b33b0;
+}
+
+
+/* ABOUT */
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.btn {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-weight: 600;
+    border: solid 3px #154f5e;
+    transition: .5s;
+    
+}
+
+.btn:hover {
+    transition: .5s;
+    padding: 10px 20px;
+    color: antiquewhite;
+    background-color: #154f5e;
+}
+
+
+.right-content {
+    text-align: end;
+}
+
+
+
+/* PATROCINADORES */
+.sponsors {
+    margin: 10vh auto;
+    width: 95%;
+    background-color: rgba(50, 50, 50, 0.5);
+    height: 400px;
+    text-align: center;
+    border-radius: 0 0 25px 25px;
+}
+
+.sponsors h3 {
+    font-family: 'CocoBiker';
+    font-weight: 400;
+    font-size: 40px;
+    color: #ffe2d8;
+    margin-bottom: 3rem;
+}
+
+.logos {
+    font-size: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+
+/* FOOTER */
+
+.copyright {
+    text-align: center;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+.footer-content {
+    background-color: #0b2b33;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 50px;
+}
+
+.footer-col {
+    color: antiquewhite
+}
+
+.footer-col h3 {
+    margin-bottom: 2rem;
+}
+
+.footer-col p {
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+#email {
+    border: 0;
+    border-radius: 25px 0 0 25px;
+    padding: 10px 20px
+}
+
+#socio-btn {
+    padding: 10px 20px;
+    border-radius: 0 0 25px;
+    background-color: #154f5e;
+    color:antiquewhite;
+    transition: .3s;
+    cursor: pointer;
+    border: 0;
+}
+
+#socio-btn:hover {
+    transition: .3s;
+    background-color: #3bb7d6;
+    color:antiquewhite
+}
+
+.social i {
+    margin-top: 1rem;
+    justify-content: space-around;
+}
