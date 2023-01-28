@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MANU | Hotel Resort</title>
 
-    <link rel="icon" type="image/png" href="./static/img/favicon2.png">
+    <link rel="icon" type="image/png" href="./static/img/favicon.png">
 
     <!-- STYLES -->
     <link rel="stylesheet" href="./static/css/styles.css">
+    <link rel="stylesheet" href="./static/css/index.css">
 
     <!-- BOXICONS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -35,7 +36,7 @@
             </ul>
             <ul class="main-menu">
                 <li><a href=""><i class='bx bx-phone'></i> Contactar</a></li>
-                <li><a href=""><i class='bx bx-calendar-check'></i> Reservar</a></li>
+                <li><a href="./reservar.html"><i class='bx bx-calendar-check'></i> Reservar</a></li>
             </ul>
         </div>
 
@@ -52,7 +53,7 @@
                     magnam accusantium at quasi officiis numquam illum libero cum iure a placeat itaque aperiam eligendi
                     asperiores est dolorum delectus? Recusandae! Lorem ipsum dolor sit amet consectetur adipisicing
                     elit. Totam fugiat voluptatem quo facilis ad soluta suscipit earum, dolorum reiciendis nulla?</p>
-                <a href="#" class="hero-btn">Reservar</a>
+                <a href="./reservar.html" class="hero-btn">Reservar</a>
             </div>
         </div>
     </header>
@@ -69,7 +70,7 @@
                     <a href="#" class="btn">Ver Habitaciones</a>
                 </div>
                 <div class="about-content">
-                    <img src="./static/img/rooms.jpg" alt="" class="sections-img">
+                    <img src="./static/img/home/rooms.jpg" alt="" class="sections-img">
                 </div>
             </div>
         </div>
@@ -81,7 +82,7 @@
         <div class="content">
             <div class="about">
                 <div>
-                    <img src="./static/img/galery.jpg" alt="" class="sections-img">
+                    <img src="./static/img/home/galery.jpg" alt="" class="sections-img">
                 </div>
                 <div class="right-content">
                     <h4>Fotos bonitas</h4>
@@ -108,7 +109,7 @@
                     <a href="#" class="btn">Ver Actividades</a>
                 </div>
                 <div class="about-content">
-                    <img src="./static/img/activity.jpg" alt="" class="sections-img">
+                    <img src="./static/img/home/activity.jpg" alt="" class="sections-img">
                 </div>
             </div>
         </div>
@@ -118,7 +119,7 @@
         <div class="content">
             <div class="about">
                 <div class="about-content">
-                    <img src="./static/img/events.jpg" alt="" class="sections-img">
+                    <img src="./static/img/home/events.jpg" alt="" class="sections-img">
                 </div>
                 <div class="right-content">
                     <h4>Fiesta & Conciertos</h4>
@@ -136,22 +137,21 @@
     <section class="container">
         <hr>
         <div class="sponsors">
-            <h3>Nuestros Patronicadores</h3>
             <div class="logos">
                 <i class='bx bxl-aws'></i>
-                <i class='bx bxl-venmo' ></i>
-                <i class='bx bxl-trip-advisor' ></i>
-                <i class='bx bxs-store-alt' ></i>
-                <i class='bx bxs-plane-take-off' ></i>
-                <i class='bx bxl-tiktok' ></i>
-                <i class='bx bxl-etsy' ></i>
-                <i class='bx bxl-visa' ></i>
-                <i class='bx bxl-mastercard' ></i>
-                <i class='bx bxl-microsoft' ></i>
-                <i class='bx bxl-wix' ></i>
-                <i class='bx bxl-shopify' ></i>
+                <i class='bx bxl-venmo'></i>
+                <i class='bx bxl-trip-advisor'></i>
+                <i class='bx bxs-store-alt'></i>
+                <i class='bx bxs-plane-take-off'></i>
+                <i class='bx bxl-tiktok'></i>
+                <i class='bx bxl-etsy'></i>
+                <i class='bx bxl-visa'></i>
+                <i class='bx bxl-mastercard'></i>
+                <i class='bx bxl-microsoft'></i>
+                <i class='bx bxl-wix'></i>
+                <i class='bx bxl-shopify'></i>
             </div>
-            
+
         </div>
         <hr>
     </section>
@@ -162,22 +162,34 @@
         <div class="footer-content">
             <div class="footer-col">
                 <h3>Sobre el Hotel</h3>
-                <p>Restaurantes & Bares</p>
-                <p>Casino</p>
-                <p>Young Center</p>
+                <ul>
+                    <li><a href="#">Restaurantes & Bares</a></li>
+                    <li><a href="#">Casino</a></li>
+                    <li><a href="#">Young Center</a></li>
+                </ul>
             </div>
             <div class="footer-col">
                 <h3>General</h3>
-                <p>Contactenos</p>
-                <p>Politicas</p>
-                <p>Ubicacion</p>
+                <ul>
+                    <li><a href="#">Contactenos</a></li>
+                    <li>
+                        <a href="#">Politicas</a>
+                    </li>
+                    <li>
+                        <a href="#">Ubicacion</a>
+                    </li>
+                </ul>
+
             </div>
             <div class="footer-col">
                 <h3>Sus vacaciones</h3>
-                <p>Reserve sus vacaciones</p>
-                <p>Promociones</p>
-                <p>Eventos</p>
+                <ul>
+                    <li><a href="#">Reserve sus vacaciones</a></li>
+                    <li><a href="#">Promociones</a></li>
+                    <li><a href="#">Eventos</a></li>
+                </ul>
             </div>
+            
             <div class="footer-col">
                 <h3>Mantengase conectado</h3>
                 <p>Unete a nuestro programa de socios sin costo alguno</p>
