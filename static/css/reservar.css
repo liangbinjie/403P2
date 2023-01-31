@@ -63,6 +63,12 @@
   border: 0;
 }
 
+.rv-btn:hover {
+  background-color: #35b5d5;
+  color: antiquewhite;
+  transition: 0.3s;
+}
+
 
 input {
   padding: 10px 20px
