@@ -1,4 +1,6 @@
 .contact-header {
-    padding-top: 100px;
+    padding-top: 80vh;
     margin: 0 3rem;
+    text-align: center;
+    line-height: 2rem;
 }
