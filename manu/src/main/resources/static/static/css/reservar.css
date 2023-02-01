@@ -1,0 +1,75 @@
+.hero {
+  background: url("../img/reserva/hero.jpg") center center/cover;
+  height: 100vh;
+  justify-content: end;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-content {
+  color: #fff;
+  margin: 10rem;
+  width: 60%;
+}
+
+.hero-content h2 {
+  font-size: 48px;
+}
+
+.date-form {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.room {
+  border-radius: 0 15px 15px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,.5);
+  margin-bottom: 20px;
+  align-items: center;
+  display: grid;
+  background-color: #fff;
+  gap: 10px;
+  grid-template-columns: 300px 50% 20%;
+}
+
+.room-img {
+  display: block;
+  width: 300px;
+  height: 190px;
+}
+
+.room-des {
+  width: 90%;
+}
+
+.room-info {
+  margin: auto;
+  text-align: center;
+  line-height: 50px;
+}
+
+.room-info h5 {
+  font-size: 30px
+}
+
+.rv-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #154f5e;
+  color: antiquewhite;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 0;
+}
+
+.rv-btn:hover {
+  background-color: #35b5d5;
+  color: antiquewhite;
+  transition: 0.3s;
+}
+
+
+input {
+  padding: 10px 20px
+}

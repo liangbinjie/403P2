@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANU | Hotel Resort</title>
+
+    <link rel="icon" type="image/png" href="./static/img/favicon.png">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./static/css/styles.css">
+
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./static/css/reservar.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-menu">
+            <a href="index.html"><img src="./static/img/logo2.png" alt="logo" class="brand-img"></a>
+            <ul class="main-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="habitaciones.html">Habitaciones</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="actividades.html">Actividades</a></li>
+                <li><a href="eventos.html">Eventos</a>
+                    <!-- <ul class="dropdown">
+                        <li><a href="#">Promociones</a></li>
+                        <li><a href="#">Actividades</a></li>
+                        <li><a href="#">Actividades</a></li>
+                    </ul> -->
+                </li>
+            </ul>
+            <ul class="main-menu">
+                <li><a href="./contact.html"><i class='bx bx-phone'></i> Contactar</a></li>
+                <li><a href="./reservar.html"><i class='bx bx-calendar-check'></i> Reservar</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <header>
+        <div class="hero">
+            <div class="hero-content">
+                <h2>Vive una experiencia inolvidable</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati modi cum et nihil
+                    fugiat repellat soluta vel velit est incidunt ullam omnis optio, repudiandae commodi! Assumenda,
+                    iure? Perferendis, libero odio repellat distinctio laborum nihil, adipisci provident consectetur
+                    earum corrupti vitae eveniet deserunt totam rem ratione nulla! Aliquid, dolore ipsum!</p>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main>
+        <section class="container">
+            <div class="date-form">
+                <label for="check-in">Check In</label>
+                <input type="date" name="check-in" id="check-in"> |
+                <label for="check-out">Check Out</label>
+                <input type="date" name="check-out" id="check-out"> | 
+                <label for="people">Numero de personas</label>
+                <input type="number" name="people" id="people" min="1" max="8" value="1"> |
+                <label for="rooms">Numero de habitaciones</label>
+                <input type="number" name="rooms" id="rooms" min="1" max="4" value="1">
+                <button type="submit" class="rv-btn">Buscar</button>
+            </div>
+        </section>
+        <hr>
+        <section class="container">
+            <div class="content">
+                <div class="room">
+                    <img src="./static/img/reserva/room.jpg" alt="" class="room-img">
+                    <div class="room-des">
+                        <h5>Junior Suite</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ut molestiae vitae et, quis harum nam hic accusantium ducimus sint!</p>
+                    </div>
+                    <div class="room-info">
+                        <h5>$1500/night</h5>
+                        <a href="#" class="rv-btn">Reservar</a>
+                    </div>
+                </div>
+                <div class="room">
+                    <img src="./static/img/reserva/r2.jpg" alt="" class="room-img">
+                    <div class="room-des">
+                        <h5>Family Suite</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ut molestiae vitae et, quis harum nam hic accusantium ducimus sint!</p>
+                    </div>
+                    <div class="room-info">
+                        <h5>$1800/night</h5>
+                        <a href="#" class="rv-btn">Reservar</a>
+                    </div>
+                </div>
+                <div class="room">
+                    <img src="./static/img/reserva/r4.jfif" alt="" class="room-img">
+                    <div class="room-des">
+                        <h5>Junior Top Suite</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ut molestiae vitae et, quis harum nam hic accusantium ducimus sint!</p>
+                    </div>
+                    <div class="room-info">
+                        <h5>$1600/night</h5>
+                        <a href="#" class="rv-btn">Reservar</a>
+                    </div>
+                </div>
+                <div class="room">
+                    <img src="./static/img/reserva/r5.jpg" alt="" class="room-img">
+                    <div class="room-des">
+                        <h5>Ocean View Suite</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ut molestiae vitae et, quis harum nam hic accusantium ducimus sint!</p>
+                    </div>
+                    <div class="room-info">
+                        <h5>$1700/night</h5>
+                        <a href="#" class="rv-btn">Reservar</a>
+                    </div>
+                </div>
+                <div class="room">
+                    <img src="./static/img/reserva/r6.jpg" alt="" class="room-img">
+                    <div class="room-des">
+                        <h5>VIP Suite</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ut molestiae vitae et, quis harum nam hic accusantium ducimus sint!</p>
+                    </div>
+                    <div class="room-info">
+                        <h5>$2500/night</h5>
+                        <a href="#" class="rv-btn">Reservar</a>
+                    </div>
+                </div>
+                <div class="room">
+                    <img src="./static/img/reserva/r7.jpg" alt="" class="room-img">
+                    <div class="room-des">
+                        <h5>Presidential Suite</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ut molestiae vitae et, quis harum nam hic accusantium ducimus sint!</p>
+                    </div>
+                    <div class="room-info">
+                        <h5>$5000/night</h5>
+                        <a href="#" class="rv-btn">Reservar</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Sobre el Hotel</h3>
+                <ul>
+                    <li><a href="#">Restaurantes & Bares</a></li>
+                    <li><a href="#">Casino</a></li>
+                    <li><a href="#">Young Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>General</h3>
+                <ul>
+                    <li><a href="#">Contactenos</a></li>
+                    <li>
+                        <a href="#">Politicas</a>
+                    </li>
+                    <li>
+                        <a href="#">Ubicacion</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="footer-col">
+                <h3>Sus vacaciones</h3>
+                <ul>
+                    <li><a href="#">Reserve sus vacaciones</a></li>
+                    <li><a href="#">Promociones</a></li>
+                    <li><a href="#">Eventos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Mantengase conectado</h3>
+                <p>Unete a nuestro programa de socios sin costo alguno</p>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="tu.email@mail.com"><button type="submit"
+                    id="socio-btn">Unirse</button>
+                <div class="social">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-linkedin'></i>
+                    <i class='bx bxl-trip-advisor'></i>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <small>&COPY; 2023 BY MANU HOTEL RESORT</small>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
