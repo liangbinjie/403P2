@@ -11,6 +11,7 @@
 
     <!-- STYLES -->
     <link rel="stylesheet" href="./static/css/styles.css">
+    <link rel="stylesheet" href="./static/css/socios.css">
 
     <!-- BOXICONS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -42,15 +43,36 @@
     </nav>
 
     <header>
+        <div class="socios-header">
 
-        <h1>Reservar</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati modi cum et nihil fugiat repellat soluta vel velit est incidunt ullam omnis optio, repudiandae commodi! Assumenda, iure? Perferendis, libero odio repellat distinctio laborum nihil, adipisci provident consectetur earum corrupti vitae eveniet deserunt totam rem ratione nulla! Aliquid, dolore ipsum!</p>
+            <h2>Quieres formar parte de nuestros socios</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati modi cum et nihil fugiat
+                repellat soluta vel velit est incidunt ullam omnis optio, repudiandae commodi! Assumenda, iure?
+                Perferendis, libero odio repellat distinctio laborum nihil, adipisci provident consectetur earum
+                corrupti vitae eveniet deserunt totam rem ratione nulla! Aliquid, dolore ipsum!</p>
+        </div>
+
 
     </header>
 
 
     <main>
-
+        <section class="container">
+            <div class="content">
+                <form action="socio/sign-up.jsp" method="POST" class="formulario">
+                    <h2>Inscribirse como Socio</h2>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Ingrese tu nombre">
+                    <label for="apellido">Apellidos</label>
+                    <input type="text" placeholder="Ingrese tus apellidos">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Ingrese tu email">
+                    <label for="phone">Telefono</label>
+                    <input type="tel" placeholder="Ingrese tu numero de contacto">
+                    <button type="submit">Solicitar</button>
+                </form>
+            </div>
+        </section>
     </main>
 
 

@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url("../img/socios.jpg") center center/cover;
+}
+
+.socios-header {
+    color: white;
+    margin: 6rem
+}
+
+.formulario {
+    width: 50%;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.formulario input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.formulario button {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
