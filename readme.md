@@ -8,7 +8,9 @@ En caso de ser necesario instalar las siguientes extensiones:
 2. Spring Boot Extension Pack
 
 
-Por ultimo, abrimos una nueva terminal y escribimos el siguiente comando:
+Por ultimo, abrimos una nueva terminal y escribimos los siguientes comandos:
+`cd manu`
+
 `./mvnw spring-boot:run`
 
 Documentacion para la utilizacion de SpringBoot en Visual Studio Code
