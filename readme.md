@@ -9,6 +9,7 @@ En caso de ser necesario instalar las siguientes extensiones:
 
 
 Por ultimo, abrimos una nueva terminal y escribimos los siguientes comandos:
+
 `cd manu`
 
 `./mvnw spring-boot:run`
